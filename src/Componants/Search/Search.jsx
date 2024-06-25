@@ -6,7 +6,7 @@ function Search({updateSearchterm}){
     return (
         <>
         <input type="text" className="inputbox" placeholder="Pokemon name" 
-        onChange={debouncedcallback()}/>
+        onChange={debouncedcallback}/>
       
         </>
     )
